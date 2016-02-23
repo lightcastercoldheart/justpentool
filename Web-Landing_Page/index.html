@@ -1,13 +1,13 @@
 <!DOCTYPE HTML>
 
 <head>
-	<link href="../css/style.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
-	
+
 	<!-- Fixed navbar MA -->
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">
@@ -16,11 +16,31 @@
 			</div><!--closes navbar-header-->
 
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav">
-				<li><a href="#">Photoshop</a>
-				<li><a href="#">Illustrator</a>
-				<li><a href="#">Sketch</a>
-			</ul>
+				
+				<ul class="nav navbar-nav">
+					<li class="dropdown inverse-dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Photoshop &nbsp<span class="caret"></span></a>
+					<ul class="dropdown-menu inverse-dropdown">
+						<li><a href="#">Beginner</a></li>
+						<li><a href="#">Intermediate</a></li>
+						<li><a href="#">Advanced</a></li>
+					</ul><!--closes dropdown-menu-->
+					</li>
+					<li class="dropdown inverse-dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Illustrator &nbsp<span class="caret"></span></a>
+					<ul class="dropdown-menu inverse-dropdown">
+						<li><a href="#">Beginner</a></li>
+						<li><a href="#">Intermediate</a></li>
+						<li><a href="#">Advanced</a></li>
+					</li>
+					</ul><!--closes dropdown-menu--></li>
+					<li class="dropdown inverse-dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sketch &nbsp<span class="caret"></span></a>
+					<ul class="dropdown-menu inverse-dropdown">
+						<li><a href="#">Beginner</a></li>
+						<li><a href="#">Intermediate</a></li>
+						<li><a href="#">Advanced</a></li>
+					</ul><!--closes dropdown-menu-->
+					</li>
+					
+				</ul><!--closes navbar-nav-->
 
 			<form class="navbar-form navbar-right" role="search">
 				<div class="form-group">
@@ -32,6 +52,54 @@
 		</div><!--closes container-->
 	</nav>
 
+	<div class="jumbotron">
+		<div class="container">
+			<h1>&nbsp</h1>
+			<h1><small>Just Pentool</small></h1>
+			<h4>Master the pen tool in Photoshop, <br> Illustrator, and Sketch</h4><br>
+			<p><a class="btn btn-success btn-lg" href="#" role="button">Start Learning Now&nbsp!</a></p>
+		</div>
+	</div><!--closes jumbotron-->
+
+	<div class="col-md-4 panel">
+		<h3 class="panel-heading text-center">Photoshop Tutorials</h3>
+			<div class="panel-body">
+				<img src="images/242x200.jpg" alt="242x200" class="center-block">
+					<p class="text-center"><br><a href="#" class="btn btn-primary" role="button">Explore Photoshop Tutorials</a></p>
+		</div>
+		
+	</div>
+
+	<div class="col-md-4 panel">
+		<h3 class="panel-heading text-center">Illustrator Tutorials</h3>
+			<div class="panel-body">
+			<img src="images/242x200.jpg" alt="242x200" class="center-block">
+					<p class="text-center"><br><a href="#" class="btn btn-primary" role="button">Explore Illustrator Tutorials</a></p>
+			</div>
+		
+		
+	</div>
+
+
+	<div class="col-md-4 panel">
+		<h3 class="panel-heading text-center">Sketch Tutorials</h3>
+				<div class="panel-body">
+				<img src="images/242x200.jpg" alt="242x200" class="center-block">
+					<p class="text-center"><br><a href="#" class="btn btn-primary" role="button">Explore Sketch Tutorials</a></p>
+				</div>
+		</div>
+		
+		
+	</div>
+
+
+	<footer class="footer">
+		<div class="container">
+			<p class="pull-left"> Project Pentool Awesome | 2016</p>
+			<p class="pull-right">
+				<a href="#">About Us</a> | <a href="#">Contact Us</a> | <a href="#">Help</a>
+			</p>
+	</footer>
 
 </body>
 
